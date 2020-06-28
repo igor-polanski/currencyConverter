@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+    <h1 class="header__heading">Online Currency Converter</h1>
+        </header>
+    <form class="form js-form"> 
+        <fieldset class="form__fieldSet">
+        <legend class="form__legend">Convert your currency here!</legend>
+        <p>
+            <label>
+                <span class = "form__labelText">
+                Amount in GBP*: 
+                </span>
+                <input class = "form__field js-amount" placeholder = "Enter an amount in GBP" type = "number" step="0.01" required> 
+            </label>
+        </p>
+        <p>
+            <label>
+                <span class = "form__labelText">
+                Currency: 
+                </span>
+                <select class="form__field js-currency">
+                    <option value="PLN">Polish Zloty</option>
+                    <option value="EUR">Euro</option>
+                    <option value="USD">United States Dollar</option>
+                </select>
+            </label>
+        </p>
+    </fieldset>
+    <p class="form__data"><em>Data provided by Morningstar for Currency on 20/06/2020 at 8:08PM</em></p>
+    <p>
+        <button class="form__button">Calculate!</button>
+    </p>
+    <p class="form__result js-result"></p>
+    </form>
+</div>
+</body>
+</html>
