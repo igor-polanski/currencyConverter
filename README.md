@@ -4,9 +4,9 @@
     Convert currency online.
     <br />
     <br />
-    <a href="https://igor-polanski.github.io/homepage/" target="_blank" rel="noopener noreferrer">View Demo</a>
+    <a href="https://igor-polanski.github.io/currencyConverter/" target="_blank" rel="noopener noreferrer">View Demo</a>
     ·
-    <a href="https://github.com/igor-polanski/homepage/issues" target="_blank" rel="noopener noreferrer">Report Bug</a>
+    <a href="https://github.com/igor-polanski/currencyConverter/issues" target="_blank" rel="noopener noreferrer">Report Bug</a>
   </p>
 </p>
 
