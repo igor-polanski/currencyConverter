@@ -17,26 +17,21 @@
 	border-radius: 5px;
 }
 
-.form__field:disabled {
-	background-color: hsl(0, 0%, 60%);
-	color: white;
-}
-
 .form__button {
 	color: white;
 	width: 100%;
 	background-color: hsl(198, 65%, 40%);
 	text-decoration: none;
-	padding: 10px 15px;
+	padding: 10px;
 	border: none;
-	border-radius: 5px;
+	border-radius: 20px;
 }
 
 .form__button:visited {
 	color: white;
 	background-color: #88cae6;
 	text-decoration: none;
-	padding: 10px 15px;
+	padding: 10px;
 }
 
 .form__button:focus {
@@ -67,14 +62,13 @@
 }
 
 .form__result {
-	background-color: hsl(128, 65%, 40%);
-	color: white;
-	border-radius: 5px;
+	color: black;
 	text-align: center;
-	margin-top: 20px;
+	color: hsl(120, 73%, 50%);
+	font-size: 150%;
 }
 
 .form__data {
-	color: white;
+	color: black;
 	text-align: center;
 }
