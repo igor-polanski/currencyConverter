@@ -25,7 +25,7 @@
 
 ## About The Project
 
-[![currencyConverter.gif](https://s7.gifyu.com/images/currencyConverter.gif)](https://gifyu.com/image/uJPh)
+[![currencyConverterd763b28262bf6651.gif](https://s7.gifyu.com/images/currencyConverterd763b28262bf6651.gif)](https://gifyu.com/image/QdhF)
 
 Convert British Pounds to Polish Zloty, Euro or United States Dollar. The form is created with validation and a switch case is used in JavaScript to carry out the calculations. BEM methodology is also applied.
 
